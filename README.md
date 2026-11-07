@@ -61,8 +61,8 @@ I think SQL is still widely used because almost every company keeps its data in 
 | --- | :---: | :---: | :---: | :---: | :---: |
 | Basic SELECT, WHERE, ORDER BY | | | | | X |
 | Aggregation (COUNT, SUM, AVG, GROUP BY, HAVING) | | | | X | |
-| Joins (2 tables) | | | | | X |
-| Joins (3 or more tables) | | | | X | |
-| Subqueries | | | | X | |
+| Joins (2 tables) | | | X | | |
+| Joins (3 or more tables) | | | X | | |
+| Subqueries | | | X | | |
 | CTEs (WITH) and window functions | | | X | | |
 | CREATE, INSERT, UPDATE, DELETE | | | X | | |
