@@ -66,3 +66,10 @@ I think SQL is still widely used because almost every company keeps its data in 
 | Subqueries | | | X | | |
 | CTEs (WITH) and window functions | | | X | | |
 | CREATE, INSERT, UPDATE, DELETE | | | X | | |
+
+For the basic, I rated myself 5 as I am very familiar with them and we always use them on our exercises but for aggregation i rated myself 4 as sometimes I am still having a second thought how to use it in the code. For joins of 2 tables and 3 or more tables, I rated myself 3 as I still need to check whether to use `INNER JOIN` or `LEFT JOIN`. While for subqueries, CTEs, and for `CREATE`, `INSERT`, `UPDATE` and `DELETE` I also rated myself 3 as I am still having a problem on how to write it correctly where I still need the assistance of AI to write the code properly.
+
+## Section 6: Goals and Next Steps
+I want to get better at CTEs and `CREATE`, `INSERT`, `UPDATE` and `DELETE`. I will practice by looking for exercises that I can do in the internet and try to answer them.
+I want to learn more about `RANK` function as it can rank rows.
+My goal: by this month, I will write try to solve around 10 exercises in the internet.
