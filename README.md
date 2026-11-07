@@ -7,7 +7,8 @@ The difference between `WHERE` and `HAVING` is that `WHERE` filters rows before 
 
 ## Section 2: A Query I Am Proud Of
 From one of our example exercises where we want to know which tracks are longer than their own album’s average?
-```SELECT
+```sql
+SELECT
     t.Name AS TrackName,
     a.Title AS AlbumName,
     t.Milliseconds
@@ -19,6 +20,7 @@ WHERE t.Milliseconds > (
     FROM tracks t2
     WHERE t2.AlbumId = t.AlbumId
 );
+```
 
 This is what this query does:
 1. `FROM` tracks t `JOIN` albums a connects each track to its album through AlbumId, so I can show the album title instead of just an ID.
